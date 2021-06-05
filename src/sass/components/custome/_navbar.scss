@@ -1,0 +1,32 @@
+.navbar__container img {
+    margin-left: 20px;
+    height: 63px;    
+}
+
+.navbar__container a {
+    font-family: "dolcevita";
+}
+
+.navbar__titulo {
+    position: absolute;
+    margin-top: -10px;
+    
+    margin-left: 5px;
+    font-size: 40px;
+    font-family: "dolcevita";
+    color: $colmonisu;
+}
+.navbar__subtitulo {
+    position: absolute;
+    margin-top: 18px;
+    margin-left: 5px;
+    font-family: "estilo3";
+    font-size: 24px;
+    color: $colmonisu;
+}
+
+@media (max-width: 600px) {
+    .navbar__container img {
+        height: 55px;
+    }
+}

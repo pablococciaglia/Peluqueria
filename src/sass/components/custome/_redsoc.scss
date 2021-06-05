@@ -1,0 +1,32 @@
+.redsoc__container{
+    border-radius: 10px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.redsoc__title{
+    font-family: 'dolcevita';
+    font-size: 30px;
+}
+.redsoc__subtitle{
+    margin-left: 20px;
+    font-family: 'estilo3';
+    font-size: 25px;
+}
+
+.redsoc__icon{
+    opacity: 0.5;
+    width:50%;
+    padding: 3px;
+}
+
+.redsoc__icon:hover{
+    transition: 1s;
+    opacity: 0.8;
+}
+
+.redsoc__container i{
+    font-size: 40px;
+}

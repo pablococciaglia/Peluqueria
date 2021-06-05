@@ -1,0 +1,12 @@
+*{
+    hr{
+        border: 4px solid $colorpal-3;
+        border-bottom: $colorpal-3;
+        margin: 0;
+        size: 6px;
+    }
+
+    body{
+        background: $colorpal-2;
+    }
+}

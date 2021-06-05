@@ -1,0 +1,23 @@
+.slider__fonts h2{
+    font-family: "estilo3";
+    text-shadow:5px 5px 10px black;
+    font-size: 80px;
+    color: #FFFFFF;
+}
+
+.slider__fonts h5{
+    font-family: "dolcevita";
+    color: $colorpal-2;
+}
+
+@media (max-width: 600px) {
+    .slider__fonts h2{
+        font-size: 60px;
+    }
+}
+
+@media (min-width: 991px) {
+    .slider__fonts h2{
+        font-size: 100px;
+    }
+}
