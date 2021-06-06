@@ -9,4 +9,16 @@
     body{
         background: $colorpal-2;
     }
+
+    .component__title{
+        font-family: "dolcevita";
+        font-size: 35px;
+        margin-top: 0px;
+        color: $colorpal-3;
+        border-bottom: 10px solid $colorpal-4;
+        width: min-content;
+    }
+    .component__title span{
+        margin-left: 12px;
+    }
 }

@@ -377,7 +377,8 @@ ul.staggered-list li {
 .page-footer {
   padding-top: 20px;
   color: $footer-font-color;
-  background-color: $footer-bg-color;
+  background-image: $colopal-gradient;
+  /* background-color: $footer-bg-color; */
 
   .footer-copyright {
     overflow: hidden;
