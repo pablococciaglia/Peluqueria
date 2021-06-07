@@ -1,12 +1,101 @@
 import React from 'react'
+import {
+    GoogleMap, 
+    withScriptjs, 
+    withGoogleMap, 
+    Marker
+} from 'react-google-maps';
 
 export const Maps = () => {
+    
+    const mapStyles = require('./mapsstyle.json');
+
+    function Map(){
+        return(
+            <GoogleMap
+                defaultZoom={15}
+                defaultCenter={{
+                    lat: 36.520,
+                    lng: -4.873966690217978
+                }}
+                defaultOptions={{ styles: mapStyles }}
+            >
+                <Marker 
+                    position={{
+                        lat: 36.52161975531055, 
+                        lng:-4.873966690216868
+                    }}
+                    icon={{
+                        url: "/logo192.png",
+                        scaledSize: new window.google.maps.Size(25,25)
+                    }}
+                />
+            </GoogleMap>
+        );
+    }
+
+    function Map2(){
+        return(
+            <GoogleMap
+                defaultZoom={15}
+                defaultCenter={{
+                    lat: 36.540486,
+                    lng: -4.622865
+                }}
+                defaultOptions={{ styles: mapStyles }}
+            >
+                <Marker 
+                    position={{
+                        lat: 36.54063683872045, 
+                        lng:-4.620665573218658}}
+                    icon={{
+                        url: "/logo192.png",
+                        scaledSize: new window.google.maps.Size(25,25)
+                    }}
+                />
+            </GoogleMap>
+        );
+    }
+
+    const WrappedMap = withScriptjs(withGoogleMap(Map));
+    const WrappedMap2 = withScriptjs(withGoogleMap(Map2));
+
     return (
         <>
             <div className="component__title"><span>Mapa&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
-            <div className="row">
-                <div className="col s12 m6">
-                {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6412.863131358146!2d-4.878151804562406!3d36.51958139872908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72d81288412b09%3A0x67a78728480e7df6!2sMonis%C3%BA%20Hair%20%26%20Beauty!5e0!3m2!1ses!2ses!4v1622978653439!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> */}
+            <div className="maps__totalcontainer">
+                <div className="row">
+                    <div className="col s12 m6" style={{height: "400px"}}>
+
+                        <div className="maps__titlem">
+                            <span className="redsoc__title">Monisú</span>
+                            <span className="redsoc__subtitle">Marbell</span>
+                        </div>
+                        
+                        <WrappedMap
+                            googleMapURL = {`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyCr4tBC5_Pwlw7NSTqmJALo1fE4o6Ne_z4`}
+                            loadingElement ={<div style={{height: "100%"}} />}
+                            containerElement ={<div style={{height: "100%"}} />}
+                            mapElement ={<div style={{height: "100%"}} className="maps__container" />}
+                        />
+                        
+                    </div>
+
+                    <div className="col s12 m6" style={{height: "400px"}}>
+
+                        <div className="maps__titlef">
+                            <span className="redsoc__title">Monisú</span>
+                            <span className="redsoc__subtitle">Fuengirol</span>
+                        </div>
+
+                        <WrappedMap2
+                            googleMapURL = {`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyCr4tBC5_Pwlw7NSTqmJALo1fE4o6Ne_z4`}
+                            loadingElement ={<div style={{height: "100%"}} />}
+                            containerElement ={<div style={{height: "100%"}} />}
+                            mapElement ={<div style={{height: "100%"}} className="maps__container" />}
+                        />   
+                        
+                    </div>
                 </div>
             </div>
         </>
