@@ -2,13 +2,14 @@ import React from 'react'
 import { Aboutus } from './components/Aboutus'
 import { Contactus } from './components/Contactus'
 import { Footer } from './components/Footer'
+import { Gallery } from './components/Gallery'
 import { Maps } from './components/Maps'
 import { Navbar } from './components/Navbar'
 import { Products } from './components/Products'
 import { Prueba } from './components/Prueba'
 import { RedSoc } from './components/RedSoc'
 import { Slider } from './components/Slider'
-import { Styles } from './components/Styles'
+
 
 export const App = () => {
      return (
@@ -17,7 +18,7 @@ export const App = () => {
            <Slider />
            <RedSoc />
            <Maps />
-           <Styles />
+           <Gallery />
            <Products />
            <Aboutus />
            <Contactus />     

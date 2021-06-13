@@ -62,7 +62,8 @@ export const Maps = () => {
 
     return (
         <>
-            <div className="component__title"><span>Mapa&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+            <a name="Maps" href="#!"><div className="component__title"><span>Mapa&nbsp;&nbsp;&nbsp;&nbsp;</span></div></a>
+            
             <div className="maps__totalcontainer">
                 <div className="row">
                     <div className="col s12 m6" style={{height: "400px"}}>
