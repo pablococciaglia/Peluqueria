@@ -53,13 +53,13 @@ textarea.materialize-textarea {
 
   // Focused input style
   &:focus:not([readonly]) {
-    border-bottom: 1px solid $input-focus-color;
-    box-shadow: 0 1px 0 0 $input-focus-color;
+    border-bottom: 1px solid $colorpal-3;
+    box-shadow: 0 1px 0 0 $colorpal-3;
   }
 
   // Focused label style
   &:focus:not([readonly])+label {
-    color: $input-focus-color;
+    color: $colorpal-3;
   }
 
   // Hide helper text on data message
@@ -224,7 +224,7 @@ textarea.materialize-textarea {
     transition: color .2s;
     top: ($input-height - $input-icon-size) / 2;
 
-    &.active { color: $input-focus-color; }
+    &.active { color: $colorpal-3; }
   }
 
   .prefix ~ input,

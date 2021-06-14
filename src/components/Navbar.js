@@ -24,7 +24,7 @@ export const Navbar = () => {
                 
                 <ul className="sidenav navbar__container grey lighten-3 " id="mobile-demo">
                     <li><a href="#Maps" className=" red-text text-accent-4">Mapa</a></li>
-                    <li><a href="#Styles" className=" red-text text-accent-4">Estilos</a></li>
+                    <li><a href="#Estilos" className=" red-text text-accent-4">Estilos</a></li>
                     <li><a href="#Products" className=" red-text text-accent-4">Productos</a></li>
                     <li><a href="#AboutUs" className=" red-text text-accent-4">Nosotros</a></li>
                     <li><a href="#ContactUs" className=" red-text text-accent-4">Contacto</a></li>

@@ -6,7 +6,8 @@ import parallel2 from '../assets/fotos/gallery/parallel2.jpg'
 export const Gallery = () => {
     return (
         <>
-            <a name="Estilos" href="#!"><div className="component__title"><span>Estilos&nbsp;&nbsp;&nbsp;&nbsp;</span></div></a>
+            <a name="Estilos" href="#!"><div className="component__title"><span>Estilos&nbsp;&nbsp;&nbsp;&nbsp;</span></div></a>/
+            
             <section className="gallery">
                 <figure className="gallery__item gallery__item--1"><img src={img.img1} alt="es una fotito 1" className="gallery__img z-depth-3"/></figure>
                 <figure className="gallery__item gallery__item--2"><img src={img.img2} alt="es una fotito2" className="gallery__img z-depth-3"/></figure>
@@ -24,10 +25,15 @@ export const Gallery = () => {
                 <figure className="gallery__item gallery__item--14"><img src={img.img14} alt="es una fotito" className="gallery__img z-depth-3"/></figure>
             </section>
 
+            <hr/>
             <div className="parallax-container">
-                <div className="parallax"><img src={parallel}/></div>
+                <div className="parallax"><img src={parallel} alt="parallel"/></div>
             </div>
-            
+            <div className="caption right-align gallery__fonts">
+                <h2 className="">Create your own Styl</h2>
+            </div>
+            <hr/>
+
             <section className="gallery">
                 <figure className="gallery__item gallery__item--15"><img src={img.img15} alt="es una fotito" className="gallery__img z-depth-3"/></figure>
                 <figure className="gallery__item gallery__item--16"><img src={img.img16} alt="es una fotito" className="gallery__img z-depth-3"/></figure>
@@ -45,10 +51,15 @@ export const Gallery = () => {
                 <figure className="gallery__item gallery__item--28"><img src={img.img28} alt="es una fotito" className="gallery__img z-depth-3"/></figure>
             </section>
 
+            <hr/>
             <div className="parallax-container">
-                <div className="parallax"><img src={parallel2}/></div>
+                <div className="parallax"><img src={parallel2} alt="parallel"/></div>
             </div>
-            
+            <div className="right-align gallery__fonts">
+                <h2 className="">Shine the colors of your sou</h2>
+            </div>
+            <hr/>
+
             <section className="gallery">
                 <figure className="gallery__item gallery__item--29"><img src={img.img29} alt="es una fotito" className="gallery__img z-depth-3"/></figure>
                 <figure className="gallery__item gallery__item--30"><img src={img.img30} alt="es una fotito" className="gallery__img z-depth-3"/></figure>

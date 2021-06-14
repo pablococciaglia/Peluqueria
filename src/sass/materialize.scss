@@ -5,13 +5,6 @@
 @import './base/base';
 @import './fonts/fonts';
 
-// Custome components 
-@import "custome/navbar";
-@import "custome/slider";
-@import 'custome/redsoc';
-@import "custome/maps";
-@import "custome/gallery";
-
 // Color
 @import "components/color-variables";
 @import "components/color-classes";
@@ -51,3 +44,14 @@
 @import "components/pulse";
 @import "components/datepicker";
 @import "components/timepicker";
+
+
+// Custome components 
+@import "custome/navbar";
+@import "custome/slider";
+@import 'custome/redsoc';
+@import "custome/maps";
+@import "custome/gallery";
+@import "custome/products";
+@import "custome/aboutus";
+@import "custome/contactus"; 

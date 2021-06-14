@@ -1,0 +1,32 @@
+.contactus{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .input-field{
+        width: 90%;
+    }
+
+    &__icon{
+        background: $colorpal-4;
+    }
+
+    &__icon:hover{
+        background: $colorpal-3;
+    }
+
+    textarea {
+        border:none;
+        border-bottom: 1px solid #9e9e9e;
+        height: 6rem;
+    }
+
+    textarea:focus:not([readonly]) {
+        border:none;
+        outline: none;
+        border-bottom: 1px solid $colorpal-3;
+        box-shadow: 0 1px 0 0 $colorpal-3;
+    }
+}
