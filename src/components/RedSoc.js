@@ -20,10 +20,10 @@ export const RedSoc = () => {
                         </div>
                         <div>
                             <a href="tel:952900650" rel="noreferrer" target="_blank"><i className="material-icons black-text redsoc__icon">phone</i></a>
-                            <a href="tel:952900650" rel="noreferrer" target="_blank" className="redsoc__icontext">952900650</a>
+                            <a href="tel:952900650" rel="noreferrer" target="_blank" className="redsoc__icontext redsoc__numfijo">952900650</a>
                         </div>
                         <div>
-                            <a href="https://wa.me/34647015846" rel="noreferrer" target="_blank"><img src={logoW} alt="Facebook icon" width="40px" className="redsoc__icon"/></a>
+                            <a href="https://wa.me/34647015846" rel="noreferrer" target="_blank"><img src={logoW} alt="whatsapp icon" className="redsoc__icon"/></a>
                             <a href="https://wa.me/34647015846" rel="noreferrer" target="_blank" className="redsoc__icontext">(+34)&nbsp;647015846</a>
                         </div>
                     </div>
@@ -44,10 +44,10 @@ export const RedSoc = () => {
                         </div>
                         <div>
                             <a href="tel:952473202" rel="noreferrer" ><i className="material-icons black-text redsoc__icon">phone</i></a>&nbsp;
-                            <a href="tel:952473202" rel="noreferrer" className="redsoc__icontext">952473202</a>
+                            <a href="tel:952473202" rel="noreferrer" className="redsoc__icontext redsoc__numfijo">952473202</a>
                         </div>
                         <div>
-                            <a href="https://wa.me/34666341769" rel="noreferrer" target="_blank"><img src={logoW} alt="Facebook icon" width="40px" className="redsoc__icon"/></a>
+                            <a href="https://wa.me/34666341769" rel="noreferrer" target="_blank"><img src={logoW} alt="whatsapp icon" className="redsoc__icon"/></a>
                             <a href="https://wa.me/34666341769" rel="noreferrer" target="_blank" className="redsoc__icontext">(+34)&nbsp;666341769</a>
                         </div>
                     </div>

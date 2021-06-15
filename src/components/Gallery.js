@@ -6,7 +6,7 @@ import parallel2 from '../assets/fotos/gallery/parallel2.jpg'
 export const Gallery = () => {
     return (
         <>
-            <a name="Estilos" href="#!"><div className="component__title"><span>Estilos&nbsp;&nbsp;&nbsp;&nbsp;</span></div></a>/
+            <div id="Estilos" className="component__title"><span>Estilos&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
             
             <section className="gallery">
                 <figure className="gallery__item gallery__item--1"><img src={img.img1} alt="es una fotito 1" className="gallery__img z-depth-3"/></figure>

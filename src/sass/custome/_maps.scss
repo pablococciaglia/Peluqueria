@@ -24,6 +24,20 @@
         border-right: solid $colorpal-3;
         border-top: solid $colorpal-3;
     }
+
+    &__icon{
+        position:relative;
+        top: 5px;
+        font-size: 40px;
+        filter: invert(100%);
+        opacity: 0.5;
+        padding: 3px;
+    }
+
+    &__icon:hover {
+        transition: 1s;
+        opacity: 0.8;
+    }
     
     &__totalcontainer{
        padding-top: 10px;

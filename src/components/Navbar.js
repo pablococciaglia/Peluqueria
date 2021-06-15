@@ -5,11 +5,11 @@ export const Navbar = () => {
 
     return (
         <>
-            <div className="navbar-fixed">
+            <div className="navbar-fixed"  id="Home">
                 <nav className="navbar-fixed">
                     
                     <div className="nav-wrapper grey lighten-3">
-                    <a href="#" className="brand-logo navbar__container"><img src={logoM} alt="Monisu icon"/></a>
+                    <a href="#Home" className="brand-logo navbar__container"><img src={logoM} alt="Monisu icon"/></a>
                     <a href="#!" data-target="mobile-demo" className="sidenav-trigger" ><i className="material-icons">menu</i></a>
                     <ul className="right hide-on-med-and-down navbar__container">
                         <li><a href="#Maps" className=" red-text text-accent-4">Mapa</a></li>

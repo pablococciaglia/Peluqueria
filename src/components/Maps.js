@@ -62,7 +62,7 @@ export const Maps = () => {
 
     return (
         <>
-            <a name="Maps" href="#!"><div className="component__title"><span>Mapa&nbsp;&nbsp;&nbsp;&nbsp;</span></div></a>
+            <div id="Maps" className="component__title"><span>Mapa&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
             
             <div className="maps__totalcontainer">
                 <div className="row">
@@ -71,8 +71,8 @@ export const Maps = () => {
                         <div className="maps__titlem">
                             <span className="redsoc__title">Monisú</span>
                             <span className="redsoc__subtitle">Marbell</span>
+                            <a href="https://goo.gl/maps/vaBuF5CDXXSYb5xi8" rel="noreferrer" target="_blank"><i className="material-icons black-text maps__icon ">location_on</i></a>
                         </div>
-                        
                         <WrappedMap
                             googleMapURL = {`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyCr4tBC5_Pwlw7NSTqmJALo1fE4o6Ne_z4`}
                             loadingElement ={<div style={{height: "100%"}} />}
@@ -87,6 +87,7 @@ export const Maps = () => {
                         <div className="maps__titlef">
                             <span className="redsoc__title">Monisú</span>
                             <span className="redsoc__subtitle">Fuengirol</span>
+                            <a href="https://goo.gl/maps/E8geWCcj7zkNem55A" rel="noreferrer" target="_blank"><i className="material-icons black-text maps__icon ">location_on</i></a>
                         </div>
 
                         <WrappedMap2

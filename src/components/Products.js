@@ -4,8 +4,7 @@ import img from '../assets/fotos/products/imagenes-products'
 export const Products = () => {
     return (
         <>
-            <a name="Products" href="#!"/>
-            <div className="component__title"><span>Productos&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+            <div id="Products" className="component__title"><span>Productos&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
 
             <section className="products">
                 <figure className="products__item products__item--1"><img src={img.img1} alt="es una fotito" className="products__img z-depth-3"/></figure>

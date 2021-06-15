@@ -3,7 +3,7 @@ import React from 'react'
 export const Contactus = () => {
     return (
         <>
-            <a name="ContactUs" href="#!"><div className="component__title"><span>Contacto&nbsp;&nbsp;&nbsp;&nbsp;</span></div></a>
+            <div id="ContactUs" className="component__title"><span>Contacto&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
 
                 <form className="contactus">
 
@@ -21,11 +21,11 @@ export const Contactus = () => {
     
                     <div className="input-field  flow-text">
                         <i className="material-icons prefix">border_color</i>
-                        <textarea autoCapitalize="sentences" className="contactus__textarea" type="text" id="message" name="message" className="autocomplete" required/>
+                        <textarea autoCapitalize="sentences" type="text" id="message" name="message" className="autocomplete contactus__textarea" required/>
                         <label htmlFor="message">Mensaje</label>
                     </div>
 
-                    <a className="btn-floating btn-large contactus__icon" type="submit"><i className="material-icons">send</i></a>
+                    <a href="#!" className="btn-floating btn-large contactus__icon" type="submit"><i className="material-icons">send</i></a>
 
                 </form>
 

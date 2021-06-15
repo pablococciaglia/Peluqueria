@@ -4,7 +4,7 @@ import dibujo2 from '../assets/fotos/aboutus/aboutus2.png'
 export const Aboutus = () => {
     return (
         <>
-            <a name="AboutUs" href="#!"><div className="component__title"><span>Nosotros&nbsp;&nbsp;&nbsp;&nbsp;</span></div></a>
+            <div id="AboutUs" className="component__title"><span>Nosotros&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
 
             <div className="aboutus__container">
                 <div className="aboutus__white">
