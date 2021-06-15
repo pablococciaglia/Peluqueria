@@ -74,7 +74,7 @@ export const Maps = () => {
                             <a href="https://goo.gl/maps/vaBuF5CDXXSYb5xi8" rel="noreferrer" target="_blank"><i className="material-icons black-text maps__icon ">location_on</i></a>
                         </div>
                         <WrappedMap
-                            googleMapURL = {`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyCr4tBC5_Pwlw7NSTqmJALo1fE4o6Ne_z4`}
+                            googleMapURL = {`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key= use su propia api key de maps`}
                             loadingElement ={<div style={{height: "100%"}} />}
                             containerElement ={<div style={{height: "100%"}} />}
                             mapElement ={<div style={{height: "100%"}} className="maps__container" />}
@@ -91,7 +91,7 @@ export const Maps = () => {
                         </div>
 
                         <WrappedMap2
-                            googleMapURL = {`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyCr4tBC5_Pwlw7NSTqmJALo1fE4o6Ne_z4`}
+                            googleMapURL = {`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key= use su propia api key de maps`}
                             loadingElement ={<div style={{height: "100%"}} />}
                             containerElement ={<div style={{height: "100%"}} />}
                             mapElement ={<div style={{height: "100%"}} className="maps__container" />}
